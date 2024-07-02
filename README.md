@@ -34,9 +34,9 @@ https://drive.google.com/file/d/18N6Qbt7P_98KisOT_boJndNKsQjdwOYn/view?usp=shari
  The code to generate the outcomes incorporating knowledge graph can be accessed in ProteinKg25_ESM-2_Application notbook. In ProteinKg25_ESM-2_Application notebook,
  to have results for the different embedding models, in cell named " Ampligraph Library to extract the knowledge graph embedding", the following code editing is required:
 
- modeluu = ScoringBasedEmbeddingModel(k=320, eta=1, scoring_type='HolE')
+ please assign the target model to Embedding__MODEL=Model_NamE
 
- In the above line of modeluu replce scoring_type with the target embedding model names. We have leveraged 5 embedding models. 
+ In the above line  replce Model_NamE with the target embedding model names. We have leveraged 5 embedding models. 
  5 embedding models are: ['HolE', 'RotatE', 'ComplEx', 'DistMult', 'TransE']
 
  The code of Global ranking can be accessed through the following google colab link:
